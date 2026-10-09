@@ -1,9 +1,15 @@
 {
+  "id": "./",
   "name": "Coro San Michele - Villasmundo",
   "short_name": "Coro San Michele",
   "description": "Repertorio, scalette e coristi - Parrocchia San Michele Arcangelo Villasmundo",
-  "start_url": "./index.html",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay"
+  ],
   "background_color": "#E6F2FF",
   "theme_color": "#3A86C8",
   "orientation": "any",
